@@ -1,0 +1,79 @@
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,700&family=Noto+Sans+KR:wght@100&family=Oswald:wght@200&display=swap" rel="stylesheet">
+      <style type="text/css">
+                .img{
+                    float: right;
+                    height: 300px;
+                    width: 400px;
+                }   </style>
+                <style type="text/css">
+                    .img2{
+                        float: left;
+                        height: 200px;
+                        width: 400px;
+                    }
+                </style>
+                <style type="text/css">
+                    .img7{
+                        float: right;
+                        height: 200px;
+                        width: 400px;
+
+                    }
+                </style>
+                <style type="text/css">
+                    .img3{
+                        float: left;
+                        height: 200px;
+                        width: 400px;
+                    }
+                </style>
+                <style type="text/css">
+                    .img4{
+                        float: right;
+                        height: 200px;
+                        width: 400px;
+                    }
+                </style>
+                <style type="text/css">
+                    .img5{
+                        float: left;
+                        height: 200px;
+                        width: 400px;
+                    }
+                </style>
+                <style type="text/css">
+                    .img9{
+                        float: right;
+                        height: 100px;
+                        width: 200px;
+                        margin: bottom;
+                    }
+                </style>
+ <style>
+        
+        *{
+       font-style: italic;
+       background-color: white;
+        }
+
+       h1{
+        margin: 46px auto;
+        width: 455px;
+
+       }
+       .para{
+        border: 5px solid black;
+       }
+       h1{
+        border: 3px solid black;
+       }
+       .underline{
+        text-decoration: underline;
+       }
+    
+
+            
+       
+    </style>

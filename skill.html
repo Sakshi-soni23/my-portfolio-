@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+        body {
+            background-color: #003C43;
+        }
+
+        .inner {
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            position: relative;
+        }
+
+        .header:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 4px;
+            width: 389px;
+            background-color: #56b3d0;
+            box-shadow: 19px 11px 8px #7ac9e1;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            grid-gap: 1rem;
+            padding: 1rem 80px;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .skillbox {
+            padding: 1rem;
+            color: #ddd;
+            cursor: pointer;
+        }
+
+        .skilltitle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+
+            /* position: relative;  */
+
+        }
+
+
+        .skillicon {
+            width: 50px;
+            z-index: 2;
+        }
+
+        img {
+            width: 90px;
+            height: 59px;
+            position: relative;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+
+        .skilltitle h3 {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 0.5rem;
+            color: #77B0AA;
+        }
+
+        hr {
+            margin: 35px 50px;
+            height: 2px;
+
+        }
+
+        /* soft skill start form here */
+        .heading h3 {
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            text-decoration: underline;
+
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            grid-gap: 1rem;
+            padding: 1rem 80px;
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        .img1 {
+            width: 40vh;
+            height: 9rem;
+            border: 3px solid black;
+            box-shadow: -20px 19px 45px black;
+            margin: 37px;
+        }
+
+        .section1 h3 {
+            font-size: 1.5rem;
+            color: #77B0AA;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 13px;
+
+        }
+
+        .progressbar {
+            position: relative;
+            width: 100%;
+            height: 15px;
+            background-color: #070909;
+            border-radius: 20px;
+            margin-bottom: 25px;
+
+        }
+
+        .progressbar::after {
+            position: absolute;
+            content: attr(value);
+            top: -35;
+            bottom: 20px;
+            right: 0;
+            color: #77B0AA;
+            font-size: 15px;
+            font-weight: 100px;
+        }
+
+        .progressline {
+            position: absolute;
+            width: 0%;
+            height: 15px;
+            background-color: #519a93;
+            top: -1px;
+            border-radius: 30px;
+            animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
+
+        }
+
+        @keyframes animate {
+            100% {
+                width: 100%;
+            }
+        }
+
+        .new {
+            margin-left: 40rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="inner">
+        <div class="header" data-aos="fade-down-left" data-aos-duration="3000">
+            <h1>MY TECHNICAL SKILL</h1>
+        </div>
+        <div class="container">
+            <div class="skillbox">
+                <div class="skilltitle">
+                    <div class="img">
+                        <img src="java.png" class="skillicon">
+                    </div>
+                    <h3>JAVA</h3>
+                </div>
+                <div class="percentage">
+                    <div class="progressbar" value="80%">
+                        <div class="progressline" style="max-width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillbox">
+                <div class="skilltitle">
+                    <div class="img">
+                        <img src="html.jpg" class="skillicon">
+                    </div>
+                    <h3>HTML</h3>
+                </div>
+                <div class="percentage">
+                    <div class="progressbar" value="90%">
+                        <div class="progressline" style="max-width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillbox">
+                <div class="skilltitle">
+                    <div class="img">
+                        <img src="cssicon.png" class="skillicon">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+                <div class="percentage">
+                    <div class="progressbar" value="90%">
+                        <div class="progressline" style="max-width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillbox">
+                <div class="skilltitle">
+                    <div class="img">
+                        <img src="JavaScript icon.png" class="skillicon">
+                    </div>
+                    <h3>JAVASCRIPT</h3>
+                </div>
+                <div class="percentage">
+                    <div class="progressbar" value="60%">
+                        <div class="progressline" style="max-width: 60%;"></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="skillbox">
+                <div class="skilltitle">
+                    <div class="img">
+                        <img src="reactjs.png" class="skillicon">
+                    </div>
+                    <h3>REACTJS</h3>
+                </div>
+                <div class="percentage">
+                    <div class="progressbar" value="50%">
+                        <div class="progressline" style="max-width: 50%;"></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="skillbox">
+                <div class="skilltitle">
+                    <div class="img">
+                        <img src="c language.png" class="skillicon">
+                    </div>
+                    <h3>C language</h3>
+                </div>
+                <div class="percentage">
+                    <div class="progressbar" value="70%">
+                        <div class="progressline" style="max-width: 70%;"></div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="heading">
+            <h3>MY SOFT SKILLS</h3>
+        </div>
+        <div class="skills">
+            <div class="skillsbox">
+                <div class="section1">
+                    <div class="img">
+                        <img src="communication.jpg" alt="" class="img1">
+                    </div>
+                    <div class="percentage">
+                        <div class="progressbar" value="90%">
+                            <div class="progressline" style="max-width: 90%;"></div>
+
+                        </div>
+                    </div>
+                    <h3>COMMUNICATION</h3>
+                </div>
+
+            </div>
+            <div class="skillsbox">
+                <div class="section1">
+                    <div class="img">
+                        <img src="problemsolving.jpg" alt="" class="img1">
+                    </div>
+                    <div class="percentage">
+                        <div class="progressbar" value="70%">
+                            <div class="progressline" style="max-width: 70%;"></div>
+
+                        </div>
+                    </div>
+                    <h3>PROBLEM SOLVING</h3>
+                </div>
+
+            </div>
+
+            <div class="skillsbox">
+                <div class="section1">
+                    <div class="img">
+                        <img src="creativity.jpg" alt="" class="img1">
+                    </div>
+                    <div class="percentage">
+                        <div class="progressbar" value="90%">
+                            <div class="progressline" style="max-width: 90%;"></div>
+
+                        </div>
+                    </div>
+                    <h3>CREATIVITY</h3>
+                </div>
+
+            </div>
+            <div class="skiilsbox">
+                <div class="section1">
+                    <div class="img">
+                        <img src="time.jpg" alt="" class="img1">
+                    </div>
+                    <div class="percentage">
+                        <div class="progressbar" value="80%">
+                            <div class="progressline" style="max-width: 80%;"></div>
+
+                        </div>
+                    </div>
+                    <h3>TIME MANAGEMENT</h3>
+
+                </div>
+            </div>
+            <div class="skillsbox">
+                <div class="section1">
+                    <div class="img">
+                        <img src="adapt.jpg" alt="" class="img1">
+                    </div>
+                    <div class="percentage">
+                        <div class="progressbar" value="70%">
+                            <div class="progressline" style="max-width: 70%;"></div>
+
+                        </div>
+                    </div>
+                    <h3>ADAPTABILITY</h3>
+                </div>
+
+            </div>
+            <div class="skillsbox">
+                <div class="section1">
+                    <div class="img">
+                        <img src="flex.png" alt="" class="img1">
+                    </div>
+                    <div class="percentage">
+                        <div class="progressbar" value="80%">
+                            <div class="progressline" style="max-width: 80%;"></div>
+
+                        </div>
+                    </div>
+                    <h3>FLEXIBILITY</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </header>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>

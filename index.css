@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #003C43;
+.edu-nsw act foundation-<uniquifier> {
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin-right: -20rem;
+    margin-top: 1rem;
+    font-size: 30px;
+    
+}
+nav ul:hover{
+    color:#135D66;
+    background: linear-gradient(to left, #135D66 0% ,#E3FEF7 0%);
+    transition: .5s ease-in;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px; 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 77px;
+}
+nav div{
+    margin-left: -27rem;
+    margin-top: 1rem;
+    font-size: 30px;
+    justify-content: space-around;
+    display: flex;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: antiquewhite;
+    border: 1px solid transparent; 
+}
+nav div:hover{
+    color:#135D66;
+    background: linear-gradient(to left , #135D66 0% ,#E3FEF7 0%);
+    /* border-radius: 9px; */ 
+transition: .5s ease-in-out; 
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px; 
+}
+nav ul li{
+    height: 38px; 
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+
+}
+.main p{
+margin-top: 10rem;
+margin-left: 52rem;
+font-size: 43px;
+cursor: pointer;
+color: #77B0AA;
+
+}
+
+div p{
+    margin-top: 1rem;
+margin-left: 52rem;
+font-size: 40px;
+cursor: pointer;
+color: #77B0AA;
+}
+.contain p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.input ul li{
+margin-left: 10%;
+border: 3px solid black;
+text-align: center;
+font-size: 25px;
+margin-right: 21rem;
+margin-left: 49rem;
+    background-color:transparent;
+    padding: 10px;
+    height: 21px;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    list-style: none;
+}
+.input ul li a{
+    text-decoration: none;
+    color: white;
+}
+ .input ul li a:hover{
+    color:black; 
+
+} 
+.input ul li:hover{
+     background-color: #77B0AA;   
+    transition: .5s ease-in-out; 
+    border-radius: 10px;
+    color: black;
+    box-shadow: 8px 5px 5px #77B0AA;
+}
+div img{
+width: 28%;
+height: 570px;
+margin-left: 10%;
+margin-top:-37%;
+box-shadow: 10px 10px 8px #77B0AA
+}
+.section2{
+    max-width: 80vw;
+    margin: 44px 118px;
+}
+hr{
+    border: 0px;
+    background-color: #E3FEF7;
+    height: 1px;
+    margin: 40px 34px;
+}
+.section2 div{
+    font-size: 1.6rem;
+    color: #77B0AA;
+    margin: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+div h5{
+    margin: 30px 30px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+ .sidebar{
+    position: fixed;
+    top: 0;
+right: 0;
+height: 100vh;
+width: 250px;
+z-index: 999;
+background-color: #d7b7bc55;
+box-shadow: -10px 0 10px rgba(63, 57, 57, 0.122);
+flex-direction: column;
+text-align: center;
+backdrop-filter: blur(10px);
+display: none; 
+
+} 
+
+
+

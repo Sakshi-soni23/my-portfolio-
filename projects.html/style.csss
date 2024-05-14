@@ -1,0 +1,64 @@
+
+        .img{
+            float:right;
+        height: 200px;
+        width: 300px;
+        margin-right: 50px;
+        margin: 23px;
+        }
+        .img9{
+            height: 100px;
+            width: 200px;
+            float: left;
+        }
+.email{
+    float: right;
+    margin-right: 30px;
+}
+.check{
+    margin: 30px;
+    float:right ;
+}
+.btn{
+    border: 3px solid black;
+color: white;
+    background-color: rgb(75, 30, 30);
+    text-decoration: underline;
+    cursor: pointer;
+    border-radius: 6px;
+}
+a:hover{
+   background-color:blue;
+}
+a:active{
+    background-color: brown;
+}
+        
+        
+        *{
+            font-style: italic;
+            background-color: rgb(155, 18, 59);
+        }
+        
+        h1{
+            margin: 46px auto;
+            width: 455px;
+            
+        }
+        .para{
+            border: 5px solid goldenrod;
+            width: 50%;
+            padding: 30px;
+            border-radius: 6px;
+            background-color: rgb(19, 117, 117);
+            margin-left: 30px;
+            margin: 50px;
+        }
+        h1{
+            border: 3px solid black;
+        }
+        .underline{
+            text-decoration: underline;
+            padding: auto;
+        }
+    
