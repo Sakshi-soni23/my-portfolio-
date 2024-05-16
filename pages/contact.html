@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT PAGE</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             box-sizing: border-box;
         }
-        body{
+
+        body {
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             background-color: #FFD0D0;
         }
-        .contact h2{
+
+        .contact h2 {
             font-size: 40px;
             color: black;
             margin-bottom: 10px;
             text-align: center;
 
         }
-        .contact form{
+
+        .contact form {
             width: 600px;
             text-align: center;
         }
-        form .inputbox{
-display: flex;
-justify-content: space-between;
+
+        form .inputbox {
+            display: flex;
+            justify-content: space-between;
         }
+<<<<<<< HEAD:contact.html
         .field .item{
 width: 100%;
 padding: 18px;
@@ -44,20 +50,36 @@ outline: none;
 justify-content: center;
 margin: 12px 0;
 color: white;
+=======
+
+        .field .item {
+            width: 100%;
+            padding: 18px;
+            background-color: transparent;
+            border: 2px solid rgb(69, 173, 183);
+            border-radius: 10px;
+            outline: none;
+            justify-content: center;
+            margin: 12px 0;
+            color: white;
+>>>>>>> 6643cfa1dd02dfebadb2db809cf0ec66d9a31717:pages/contact.html
         }
-        
-        .field .item::placeholder{
+
+        .field .item::placeholder {
             color: gray;
 
         }
-        .inputbox .inputfiled{
+
+        .inputbox .inputfiled {
             width: 48.5%;
-        
+
         }
-        form .TEXTAREA field{
+
+        form .TEXTAREA field {
             resize: none;
         }
-        form button{
+
+        form button {
             padding: 12px 30px;
             width: 114px;
             background-color: #E1ACAC;
@@ -76,36 +98,41 @@ color: white;
             font-weight: bold;
 
         }
-        form button:hover{
+
+        form button:hover {
             box-shadow: none;
         }
-       .field .errortext{
-        font-size: 15px;
-        color: red;
-        text-align: left;
-        margin: -5px 0 10px;
-        display: none;
-       }
-       form .TEXTAREA .item{
-        resize: none;
-       }
-       form .TEXTAREA .errortext{
-        margin-top: -10px;
-       }
+
+        .field .errortext {
+            font-size: 15px;
+            color: red;
+            text-align: left;
+            margin: -5px 0 10px;
+            display: none;
+        }
+
+        form .TEXTAREA .item {
+            resize: none;
+        }
+
+        form .TEXTAREA .errortext {
+            margin-top: -10px;
+        }
     </style>
 </head>
+
 <body>
     <section>
         <div class="contact" data-aos="flip-left">
-            <h2>CONTACT  ME!</h2>
+            <h2>CONTACT ME!</h2>
         </div>
-       
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="a7e23450-344a-455a-8f40-2ea7f0912f21">
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a7e23450-344a-455a-8f40-2ea7f0912f21">
             <div class="inputbox" data-aos="fade-up" data-aos-durartion="3000">
                 <div class="inputfiled field">
                     <input type="text" name="full name" placeholder="FULL NAME" class="item" autocomplete="off">
-                   <div class="errortext">full name can't be blank</div>
+                    <div class="errortext">full name can't be blank</div>
                 </div>
                 <div class="inputfiled field">
                     <input type="text" name="email" placeholder="EMAIL" class="item" autocomplete="off">
@@ -123,8 +150,9 @@ color: white;
                 </div>
             </div>
             <div class="TEXTAREA field" data-aos="fade-right" data-aos-durartion="3000">
-<textarea name="your message" id="YOUR MESSAGE" placeholder="YOUR MESSAGE" class="item" autocomplete="off" cols="80" rows="10"></textarea>
-<div class="errortext">Message can't be blank</div>
+                <textarea name="your message" id="YOUR MESSAGE" placeholder="YOUR MESSAGE" class="item"
+                    autocomplete="off" cols="80" rows="10"></textarea>
+                <div class="errortext">Message can't be blank</div>
             </div>
             <button type="submit" data-aos="fade-left" data-aos-durartion="3000">SEND</button>
         </form>
@@ -133,7 +161,8 @@ color: white;
     </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 </body>
+
 </html>
