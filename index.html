@@ -10,43 +10,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-    
+
     <header>
-    <nav>
-            <div data-aos="fade-down-right">SAKSHI     PORTFOLIO</div>
+        <nav>
+            <div data-aos="fade-down-right">SAKSHI PORTFOLIO</div>
             <div class="right">
-            <ul data-aos="fade-left">
-            <li> <link rel="stylesheet" href="#">HOME</li>
-                </ul> 
-            
-        </div>
-    </nav>
+                <ul data-aos="fade-left">
+                    <li>
+                        <link rel="stylesheet" href="#">HOME
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
 
         <div class="main">
             <p>Hi, MY NAME IS </p>
         </div>
         <div>
-            <p>SAKSHI  SONI</p>
+            <p>SAKSHI SONI</p>
         </div>
         <div class="contain">
-            <p>I AM PASSANATE ABOUT DESIGNING,
-                 <br>
-                 <span id="element"></span>
-                INDIAN
+            <p>I AM PASSANATE ABOUT DESIDNING,
+                <br>
+                <span id="element"></span>
+
             </p>
-            
+
         </div>
-       
+
         <div class="input">
             <ul>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="skill.html">SKILLS </a></li>
-            <li><a href="proj.html">PROJECTS</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="./pages/about.html">ABOUT</a></li>
+                <li><a href="./pages/skill.html">SKILLS </a></li>
+                <li><a href="./pages/proj.html">PROJECTS</a></li>
+                <li><a href="./pages/contact.html">CONTACT</a></li>
             </ul>
         </div>
 
@@ -55,25 +57,28 @@
                 alt="" data-aos="fade-right" data-aos-duration="3000">
         </div>
         <hr>
-       
- </header>
- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
- <script>
-    var typed = new Typed('#element', {
-      strings: ['web developer', 'codder'],
-      typeSpeed: 50,
-    });
-  </script>
- <script>
-    function Showsidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display  ='flex'
-    }
- </script>
-   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-   <script>
-     AOS.init();
-   </script>
+
+    </header>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer', 'codder'],
+            typeSpeed: 60,
+            loop: true,
+            loopCount: Infinity,
+
+        });
+    </script>
+    <script>
+        function Showsidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
