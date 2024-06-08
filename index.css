@@ -3,32 +3,17 @@
     padding: 0;
 }
 body{
-    background-color: #FFD0D0;
+    background-color: #240758;
 .edu-nsw act foundation-<uniquifier> {
   font-family: "Edu NSW ACT Foundation", cursive;
 }
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    margin-right: -20rem;
-    margin-top: 1rem;
-    font-size: 30px;
-    
-}
-nav ul:hover{
-    color:#E1ACAC;
-    background: linear-gradient(to left, #CA8787 0% ,#A87676 0%);
-    transition: .5s ease-in;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border: 0px; 
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 77px;
+    
 }
 nav div{
     margin-left: -27rem;
@@ -38,35 +23,37 @@ nav div{
     display: flex;
     letter-spacing: 1px;
     cursor: pointer;
-    color: black;
-    border: 1px solid transparent; 
+    color: white;
+    position: relative;
+    
+   
 }
 nav div:hover{
-    color:#E1ACAC;
-    background: linear-gradient(to left , #CA8787 0% ,#A87676 0%);
-    /* border-radius: 9px; */ 
+    color:black;
+    background: linear-gradient(to left , #E5D4FF 0% ,#cdade8 0%); 
 transition: .5s ease-in-out; 
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 0px; 
+    
 }
 nav ul li{
     height: 38px; 
     list-style: none;
     margin: 0 23px;
     cursor: pointer;
-    color: black;
+    color: white;
 
 }
 nav ul li:hover{
-    color: #E1ACAC;
+    color: #a855f7;
 }
 .main p{
 margin-top: 10rem;
 margin-left: 52rem;
 font-size: 43px;
 cursor: pointer;
-color: black;
+color: white;
 
 }
 
@@ -75,90 +62,53 @@ div p{
 margin-left: 52rem;
 font-size: 40px;
 cursor: pointer;
-color: black;
+color: white;
 }
 .contain p{
     font-size: 20px;
     font-weight: bold;
     font-family: monospace;
 }
-.input ul li{
-margin-left: 10%;
-border: 3px solid black;
-text-align: center;
-font-size: 25px;
-margin-right: 21rem;
-margin-left: 49rem;
-    background-color:transparent;
-    padding: 10px;
-    height: 21px;
-    margin-top: 20px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+.input ul:hover{
+    /* box-shadow: -8px 4px 21px #9333ea; */
+}
+.input ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
+    background-color: #7e22ce;
+    font-size: 1.3rem;
+    margin: 10px;
+    width: 98%;
+    height: 3em;
+    border: 3px solid ;
+    
+}
+ .input ul li{
+    color: white;
 }
 .input ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
+    padding: 30px;
+
 }
  .input ul li a:hover{
-    color:black; 
-
-} 
-.input ul li:hover{
-     background-color: #944E63;   
-    transition: .5s ease-in-out; 
-    border-radius: 10px;
-    color: #AF8260;
-    box-shadow: 8px 5px 5px black;
-}
-div img{
-width: 28%;
-height: 570px;
-margin-left: 10%;
-margin-top:-37%;
-box-shadow: 15px 15px 10px #CA8787;
-}
-.section2{
-    max-width: 80vw;
-    margin: 44px 118px;
-}
-hr{
-    border: 0px;
-    background-color: #E3FEF7;
-    height: 1px;
-    margin: 40px 34px;
-}
-.section2 div{
-    font-size: 1.6rem;
-    color: #77B0AA;
-    margin: 10px;
-    
-    font-family: Arial, Helvetica, sans-serif;
-
-    
-}
-
-div h5{
-    margin: 30px 30px;
-    font-size: 24px;
+    color:#E5D4FF; 
     text-decoration: underline;
-}
- .sidebar{
-    position: fixed;
-    top: 0;
-right: 0;
-height: 100vh;
-width: 250px;
-z-index: 999;
-background-color: #d7b7bc55;
-box-shadow: -10px 0 10px rgba(63, 57, 57, 0.122);
-flex-direction: column;
-text-align: center;
-backdrop-filter: blur(10px);
-display: none; 
+    box-shadow: -4px -8px 29px  #9333ea;
 
 } 
 
-
-
+div img{
+width: 13%;
+height: 300px;
+margin-left: 15%;
+margin-top:-18%;
+border: 18px solid;
+    border-radius: 140px;
+}
+div img:hover{
+    box-shadow:-2px -3px 36px  #a855f7;
+}

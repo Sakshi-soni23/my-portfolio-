@@ -6,57 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About page</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="stylesheet" href="../src/output.css">
     <style>
         body {
-            background-color:#FFD0D0;
+            background-color:#3b0764; 
             display: flex;
             justify-content: center;
             text-align: center;
-            min-height: 100wv;
-        }
+
+            margin: auto;
+            
+        } 
 
         .section1 h1 {
-            color: black;
+            color: white;
             font-family: sans-serif;
             font-size: 3rem;
             font-weight: bold;
-            /* text-align: center; */
             margin-top: 5rem;
             margin-left: -67rem;
             font-family: 'Times New Roman', Times, serif;
-            text-shadow: 29px 29px 7px black;
-        }
-
-        img {
-            max-width: 320px;
-            height: 270px;
-            border: 5px solid black;
-            border-top-left-radius: 15px;
-            border-bottom-right-radius: 15px;
-            margin-right: 15px;
-            float: left;
-        }
-
-        img:hover {
-            box-shadow: -12px 7px 30px black;
-        }
-
-        .textbox {
-            color: black;
-            font-size: 1.5rem;
-            font-weight:bold;
-        }
-
-        .textbox h2 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: black;
-            font-size: 3rem;
+            text-shadow: 29px 29px 7px plum;
         }
 
         .img {
-            margin: 150px auto;
-            width: 70%;
+           background-color: #7e22ce;
+           width: 320px;
+           height: 500px;
+           margin-left: 49rem;
+           /* margin-right: 10%; */ 
         }
+       .img img{
+            width: 170px;
+            margin-top: -18px;
+            border-radius: 50%;
+            height: 137px;
+    
+        }
+        .img img:hover{
+            box-shadow:-3px 7px 27px #d946ef;
+        }
+
+        .textbox {
+            color: white;
+            font-size: 1.5rem;
+            font-weight:bold;
+            width: 600px;
+            margin-top: -25rem;
+            /* margin-left: 100%; */
+            
+        }
+        .textbox p{
+            margin-left: 20%;
+           align-items: center;
+        }
+        .img h2{
+
+        }
+        main{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            column-gap: 100px;
+            margin-left: 30px;
+        }
+
     </style>
 </head>
 
@@ -65,10 +80,12 @@
         <main>
             <div class="section1">
                 <h1 data-aos="fade-right" data-aos-duration="3000">ABOUT ME</h1>
-                <div class="img" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="../images/IMG-20231119-WA0018.jpg" alt="">
-                    <div class="textbox" data-aos="fade-down-left" data-aos-duration="3000">
-                        <h2>Hello! I'm Sakshi Soni, </h2>
+                <div class="img">
+                 <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww" alt="">
+                 <h2 class=" head text-blue-500">Hello! I'm Sakshi Soni, </h2>
+                </div> 
+                    <div class="textbox">
+                       
                         <p>I am passionate web developer with
                             a flair for design and a commitment to delivering high-quality
                             digital experiences. With a background in HTML, CSS, JavaScript, and Java
@@ -77,7 +94,6 @@
                     </div>
 
                 </div>
-            </div>
 
         </main>
     </header>
