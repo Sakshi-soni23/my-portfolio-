@@ -12,92 +12,81 @@
         * {
             padding: 0;
             margin: 0;
-            background-color: #FFD0D0;
+            background-color: #3b0764;
         }
+        .btn input{
+            margin-left: 10rem;
+    border: 2px solid;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-left: -30rem;
+    margin-top: 8rem;
+    cursor: pointer;
+}
 
-        img {
-            width: 400px;
-            height: 236px;
-            margin-left: 108px;
-            margin-top: 70px;
-            border-radius: 10px;
+         img {
+             width: 80rem;
+    height: 262px;
+    margin-left: 17px;
+    margin-top: 20px;  
+    border-radius: 2px;
+
         }
 
         img:hover {
-            box-shadow: 10px 10px 20px black;
-        }
+            border: 9px solid;
+           border-radius: 3px;
+        } 
 
-        img:hover {
-            box-shadow: 20px 10px 20px black;
-        }
-
-        .header {
+       
+        .header h2{
             text-align: center;
             font-size: 1.5rem;
             letter-spacing: 0.2rem;
             margin-top: 4%;
             color: black;
             font-family: 'Times New Roman', Times, serif;
+            background-color:#9333ea;
+            border: 2px solid;
+            width: 19rem;
+    margin-left: 43%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
         }
 
-        .header:hover {
-            font-size: 2rem;
-            letter-spacing: 0.1rem;
-            color: black;
-            text-shadow: 29px 29px 7px #A87676;
-            color: #CA8787;
-            text-shadow: 10px 20px 15px white;
-        }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-        }
-
-        .title h3 {
-            font-size: 2rem;
-            margin-left: 22%;
-            margin-top: 3%;
-            color: black;
+          .box h3 {
+            font-size: 1.7rem;
+            margin-left: 27%;
+            margin-top: 5%;
+            color: white;
             font-family: 'Courier New', Courier, monospace;
-        }
+            cursor: pointer; 
+            text-decoration: none;
+        } 
 
-        .title h3:hover {
-            color: #CA8787;
-            text-decoration: underline;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
 
-        .para p {
-            border: 3px solid #543310;
-            color: #49243E;
-        }
-
-        .title h3:hover {
-            color: #A87676;
-            text-decoration: underline;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-        .para p {
-            border: 4px solid black;
-            color: black;
+         .para p {
+           
+            color: white;
             padding: 10px;
-            margin-left: 7%;
-            margin-top: 4%;
-            margin: 55px;
-            font-size: 1rem;
+            margin-left: 52%;
+            margin-top: 10%;
+             font-size: 1rem;
             font-weight: 5000px;
 
 
+        } 
+ .para p:hover {
+            background-color:#a855f7;
+            color: black;
+            border: 3px solid;
+            cursor: pointer;
         }
-
-        .para p:hover {
-            background-color: #543310;
-            color: white;
-            border: 3px solid white;
+        hr{
+            width: 89rem;
+            margin-left: 2%;
         }
     </style>
 </head>
@@ -108,31 +97,41 @@
     </div>
     <div class="container">
         <div class="box">
-            <div class="title">
-                <div class="img" data-aos="fade-up" data-aos-duration="3000">
-                    <img src="../images/clone.png" alt="">
+            <h3 class="underline">AMAZON CLONE</h3>
+            <div class="title flex justify-center align-middle top-5">
+                <div class="img" data-aos="flip-left"  data-aos-duration="3000">
+                    <img class="w-11 h-64 m-6 mt-5" src="../images/clone.png">
                 </div>
-                <h3 class="underline">AMAZON CLONE</h3>
-            </div>
-            <div class="para" data-aos="fade-up-left" data-aos-duration="3000">
-                <p>THIS IS AMAZON CLONE WEBSITE WHICH IS MADE BY HTML AND CSS.
+                 <div class="para">
+                <p class=" top-3.5 m-6 text-white">THIS IS AMAZON CLONE WEBSITE WHICH IS MADE BY HTML AND CSS.
                     ITS MY FIRST WEBSITE AND PROJECT WHILE MAKING THIS I LEARN ALOT ABOUT WEBSITES AND WEB
                     DEVELOPMENT.
                 </p>
             </div>
+            <div class="btn">
+              <a href="https://github.com/Sakshi-soni23/amazon-website"> <input type="button" value="button"></a>
+             </div>
+            </div>
         </div>
+        <br>
+        <hr class="hr mt-4 h-8 w-2 mx-4">
         <div class="box">
-            <div class="title">
-                <div class="img" data-aos="fade-up" data-aos-duration="3000">
+            <h3>CAR WEBSITE</h3>
+            <div class="title flex justify-center align-middle">
+                <div class="img" data-aos="flip-left"  data-aos-duration="3000">
                     <img src="../images/sc of car.png" alt="">
                 </div>
-                <h3>CAR WEBSITE</h3>
-            </div>
-            <div class="para" data-aos="fade-up-left" data-aos-duration="3000">
-                <p>THIS IS CAR WEBSITE WHICH IS MADE BY HTML AND CSS.
+        
+          <div class="para">
+                <p class="para text-white top-32">THIS IS CAR WEBSITE WHICH IS MADE BY HTML AND CSS.
                     ITS MY SECOND WEBSITE AND PROJECT WHILE MAKING THIS I LEARN ALOT ABOUT WEBSITES AND WEB
                     DEVELOPMENT.
                 </p>
+            
+            </div>
+            <div class="btn">
+               <a href="https://github.com/Sakshi-soni23/car-website"><input type="button" value="button"></a>
+            </div>
             </div>
         </div>
     </div>
