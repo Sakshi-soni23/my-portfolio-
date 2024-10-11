@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #240758;
+    background-color: #FFF2D7;
 .edu-nsw act foundation-<uniquifier> {
   font-family: "Edu NSW ACT Foundation", cursive;
 }
@@ -23,14 +23,15 @@ nav div{
     display: flex;
     letter-spacing: 1px;
     cursor: pointer;
-    color: white;
+    color: black;
     position: relative;
+    font-family: fantasy;
     
    
 }
 nav div:hover{
-    color:black;
-    background: linear-gradient(to left , #E5D4FF 0% ,#cdade8 0%); 
+    color:white;
+    background: #A87676;
 transition: .5s ease-in-out; 
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -42,7 +43,7 @@ nav ul li{
     list-style: none;
     margin: 0 23px;
     cursor: pointer;
-    color: white;
+    color: black;
 
 }
 nav ul li:hover{
@@ -53,7 +54,7 @@ margin-top: 10rem;
 margin-left: 52rem;
 font-size: 43px;
 cursor: pointer;
-color: white;
+color: black;
 
 }
 
@@ -62,7 +63,7 @@ div p{
 margin-left: 52rem;
 font-size: 40px;
 cursor: pointer;
-color: white;
+color: black;
 }
 .contain p{
     font-size: 20px;
@@ -77,29 +78,25 @@ color: white;
     justify-content: center;
     align-items: center;
     list-style: none;
-    background-color: #7e22ce;
+   
     font-size: 1.3rem;
     margin: 10px;
     width: 98%;
     height: 3em;
     border: 3px solid ;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     
 }
  .input ul li{
-    color: white;
+    color: black;
 }
 .input ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 30px;
 
 }
- .input ul li a:hover{
-    color:#E5D4FF; 
-    text-decoration: underline;
-    box-shadow: -4px -8px 29px  #9333ea;
-
-} 
 
 div img{
 width: 13%;
@@ -110,5 +107,5 @@ border: 18px solid;
     border-radius: 140px;
 }
 div img:hover{
-    box-shadow:-2px -3px 36px  #a855f7;
+    box-shadow:-2px -3px 36px  #A87676;
 }

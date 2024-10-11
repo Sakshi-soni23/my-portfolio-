@@ -15,68 +15,61 @@
             cursor: pointer;
         }
         body {
-            background-color: #3b0764;
+            background-color: #FFF2D7;
             display: flex;
             justify-content: center;
             text-align: center;
-
-            margin: auto;
+             margin: auto;
 
         }
 
         .section1 h1 {
-            color: white;
+            color: black;
             font-family: sans-serif;
             font-size: 3rem;
             font-weight: bold;
             margin-top: 5rem;
             margin-left: -67rem;
             font-family: 'Times New Roman', Times, serif;
-            text-shadow: 29px 29px 7px plum;
+            text-shadow: 29px 29px 7px ;
         }
-
-        .img {
-            background-color: #7e22ce;
-            width: 320px;
-            height: 500px;
-            margin-left: 49rem;
-            position: relative;
-           
-        }
-
-        .img img {
-            width: 170px;
-            margin-top: -18px;
-            border-radius: 50%;
-            height: 160px;
-            margin-left: 80px;
-            margin-bottom: 10px;
-           
-
-        }
-
-        .img img:hover {
-            box-shadow: -3px 7px 27px #d946ef;
-        }
-
         .textbox {
-            color: white;
-            font-size: 1.5rem;
-            font-weight: bold;
-            width: 600px;
-            margin-top: -25rem;
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 300px;
+    margin: 78px 18rem 0px -2rem;
 
         }
         .textbox p {
-            margin-left: 20%;
-            align-items: center;
-        }main {
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            column-gap: 100px;
-            margin-left: 30px;
+            font-size: 21px;
+    font-family: monospace;
+    margin-left: 11rem;
         }
+         .img img{
+            width: 58rem;
+    height: 14rem;
+    border: 3px solid;
+         }
+         .img img:hover{
+    box-shadow: -7px 6px 10px 10px rosybrown;
+         }
+         .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 16px;
+    margin-right: 44rem;
+         }
+         .git{
+            width: 40px;
+         }
+         .insta{
+            width: 54px;
+         }
+         .icon a img:hover{
+            box-shadow: 1px 2px 2px 3px black;
+         }
     </style>
 </head>
 
@@ -86,24 +79,20 @@
             <div class="section1">
                 <div><a href="../index.html"><i class="fa-regular fa-square-caret-left"></i></a></div>
                 <h1 data-aos="fade-right" data-aos-duration="3000">ABOUT ME</h1>
-                <div class="img bottom-2">
-                    <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww">
-                     <h2 class=" head text-black  font-extrabold  text-xl">Hello! I'm Sakshi Soni, </h2>
-                     <br>
-                <p class="new w-45 text-white font-extralight text-1xl  "> With a deep understanding of modern web technologies and a commitment to staying up-to-date with the latest trends, I strive to deliver high-quality, responsive, and user-friendly web experiences.</p>
-                </div>
                 <div class="textbox">
-
-                    <p text-hover>I am passionate web developer with
+                    <div> <p>I am passionate web developer with
                         a flair for design and a commitment to delivering high-quality
                         digital experiences. With a background in HTML, CSS, JavaScript, and Java
-
-                        Beyond my technical skills, I bring a range of soft skills </p>
-                </div>
-
-            </div>
-
-        </main>
+                  Beyond my technical skills, I bring a range of soft skills </p></div>
+                  <div class="img"><img src="../images/aboutimg.jpg" alt=""></div>
+             </div>
+             <div class="icon">
+                <a href="https://www.linkedin.com/in/sakshi-soni91/details/featured/"><img src="../images/linkdin.png"></a>
+                <a href="https://www.instagram.com/sakshisony786/"><img src="../images/instagram.png" class="insta"></a>
+                <a href="https://github.com/Sakshi-soni23"><img src="../images/github (1).png" class="git"></a>
+             </div>
+ </div>
+ </main>
     </header>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
