@@ -1,79 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>SAKSHI PORTFOLIO</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="/src/output.css">
-</head>
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav>
-            <div data-aos="fade-down-right">SAKSHI PORTFOLIO</div>
-            <div class="right"></div>
-        </nav>
+      <nav>
+        <div data-aos="fade-down-right">PORTFOLIO</div>
+        <div class="right"></div>
+      </nav>
+      <div class="contain">
         <div class="input">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="./pages/about.html">ABOUT</a></li>
-                <li><a href="./pages/skill.html">TECHNICAL SKILLS </a></li>
-                <li><a href="./pages/proj.html">PROJECTS</a></li>
-                <li><a href="./pages/softskills.html">SOFT SKILLS</a></li>
-                <li><a href="./pages/contact.html">CONTACT</a></li>
-                
-            </ul>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="./pages/about.html">ABOUT</a></li>
+            <li><a href="./pages/skill.html">TECHNICAL SKILLS </a></li>
+            <li><a href="./pages/proj.html">PROJECTS</a></li>
+            <li><a href="./pages/softskills.html">SOFT SKILLS</a></li>
+            <li><a href="./pages/contact.html">CONTACT</a></li>
+          </ul>
         </div>
-
-        <div class="main">
-            <p class="underline">Hi, MY NAME IS </p>
-        </div>
-        <div>
-            <p>SAKSHI SONI</p>
-        </div>
-        <div class="contain">
-            <p>I AM PASSANATE ABOUT DESINING,
-                <br>
-                <span id="element"></span>
-            <p>I AM PASSANATE ABOUT DESIDNING,
-                <br>
-                <span id="element"></span>
+        <div class="inforamtion flex">
+          <div class="info">
+            <h2 class="text-white font-serif mt-[11rem] ml-[5rem] text-5xl">
+              SAKSHI SONI
+            </h2>
+            <p class="text-white" id="para">
+              a passionate web developer and aspiring AI Basic. I specialize in
+              creating innovative, user-friendly websites and exploring the
+              limitless possibilities of technology
             </p>
-
+            <a href="https://www.linkedin.com/in/sakshi-soni91/"><button type="button" class="btn">Linkeddin</button></a>
+            <a href="https://github.com/Sakshi-soni23"><button type="button" class="btn2">Github</button></a>
+          </div>
+          <div class="img">
+            <img src="../images/orangebg.avif" alt="" />
+          </div>
         </div>
-        <div>
-            <img src="images/IMG-20231119-WA0018.jpg" alt="" data-aos="fade-right" data-aos-duration="3000">
-        </div>
-
+      </div>
     </header>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-            strings: ['web developer', 'codder'],
-            typeSpeed: 60,
-            loop: true,
-            loopCount: Infinity,
-
-        });
+      var typed = new Typed("#element", {
+        strings: ["web developer", "codder"],
+        typeSpeed: 60,
+        loop: true,
+        loopCount: Infinity,
+      });
     </script>
     <script>
-        function Showsidebar() {
-            const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'flex'
-        }
+      function Showsidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-</body>
-
+  </body>
 </html>

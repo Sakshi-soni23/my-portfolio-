@@ -3,10 +3,51 @@
     padding: 0;
 }
 body{
-    background-color: #FFF2D7;
-.edu-nsw act foundation-<uniquifier> {
-  font-family: "Edu NSW ACT Foundation", cursive;
+    background-color: orangered;
 }
+#para{
+    font-size: 11px;
+    width: 31rem;
+    margin-left: 96px;
+    margin-top: 11px;
+}
+.btn2{
+    width: 5rem;
+    height: 30px;
+    border: 2px solid white;
+    margin-left: 45px;
+    margin-top: 22px;
+    background-color: orangered;
+    font-size: 11px;
+}
+
+.btn{
+   width: 5rem;
+    height: 2rem;
+    border: 2px solid white;
+    margin-left: 7rem;
+    margin-top: 31px;
+    color: black;
+    padding: 4px;
+    font-size: 10px;
+    background-color: orangered;
+}
+.contain{
+    border: 2px solid;
+    width: 80%;
+    margin-left: 9rem;
+    margin-top: 2rem;
+    height: 35rem;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 3px 6px 20px 14px #27374D;
+    
+}
+.information h2{
+    font-size: 3rem;
+    margin-left: 64px;
+    margin-top: 12%;
+    font-family: emoji;
 }
 nav{
     display: flex;
@@ -18,94 +59,62 @@ nav{
 nav div{
     margin-left: -27rem;
     margin-top: 1rem;
-    font-size: 30px;
+    font-size: 25px;
     justify-content: space-around;
     display: flex;
     letter-spacing: 1px;
     cursor: pointer;
     color: black;
     position: relative;
-    font-family: fantasy;
-    
-   
-}
+    font-family:sans-serif;
+    }
 nav div:hover{
-    color:white;
-    background: #A87676;
+    color:orangered;
+    background: black;
 transition: .5s ease-in-out; 
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 0px; 
     
 }
-nav ul li{
-    height: 38px; 
-    list-style: none;
-    margin: 0 23px;
-    cursor: pointer;
-    color: black;
-
-}
-nav ul li:hover{
-    color: #a855f7;
-}
-.main p{
-margin-top: 10rem;
-margin-left: 52rem;
-font-size: 43px;
-cursor: pointer;
-color: black;
-
-}
-
-div p{
-    margin-top: 1rem;
-margin-left: 52rem;
-font-size: 40px;
-cursor: pointer;
-color: black;
-}
-.contain p{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: monospace;
-}
-.input ul:hover{
-    /* box-shadow: -8px 4px 21px #9333ea; */
-}
 .input ul{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
-   
-    font-size: 1.3rem;
+    font-size: 11px;
     margin: 10px;
-    width: 98%;
+    width: 131%;
     height: 3em;
-    border: 3px solid ;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     
 }
  .input ul li{
-    color: black;
+    color: white;
 }
 .input ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 30px;
 
 }
+.input ul li:hover{
+    border: 2px solid white;
+    background-color: orangered;
+}
+/* .input ul li a:hover{
+    border: 2px solid white;
+    background-color: orangered;
+} */
 
-div img{
-width: 13%;
-height: 300px;
-margin-left: 15%;
-margin-top:-18%;
-border: 18px solid;
-    border-radius: 140px;
+ .img img{
+width: 22rem;
+    height: 321px;
+    margin-left: 32%;
+    margin-top: 19%;
+    border: 18px solid;
+    border-radius: 90px;
+    box-shadow: 1px 6px 36px 11px orangered;
 }
 div img:hover{
     box-shadow:-2px -3px 36px  #A87676;
-}
+} 

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../src/output.css">
    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <link rel="stylesheet" href="css/rotating-slider.min.css">
 
     <style>
         * {
@@ -16,10 +17,11 @@
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: bold;
+            overflow: hidden;
         }
 
         body {
-            background-color: #FFF2D7;
+            background-color: orangered;
         }
 
         .inner {
@@ -29,11 +31,11 @@
 
         .header h1 {
             text-align: center;
-            color: black;
-            font-size: 1.4rem;
-            margin-top: 2rem;
-            position: relative;
-            font-family: ui-monospace;
+    color: cornsilk;
+    font-size: 2.4rem;
+    margin-top: 2rem;
+    position: relative;
+    font-family: serif;
         }
 
         .header:after {
@@ -47,104 +49,66 @@
             background-color:#A87676;
             box-shadow: 19px 11px 8px black;
         }
-
-        .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            grid-gap: 1rem;
-            padding: 3rem 4px;
-            font-size: 1.2rem;
-            color: black;
-            margin-left: 7rem;
-        }
-
-        .skillbox {
-            padding: 1rem;
-            color: black;
-            cursor: pointer;
-        }
-
-        .skilltitle {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0.5rem;
-            margin-bottom: 0.5rem;
-
-        }
-
-
-        .skillicon {
-            width: 50px;
-            z-index: 2;
-        }
-
-        img {
-            width: 90px;
-            height: 59px;
-            position: relative;
-            border-radius: 10px;
-            background-color: #fff;
-        }
-
-
-        .skilltitle h3 {
-
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin-top: 0.5rem;
-            color: black;
-        }
-
- .progressbar {
-            position: relative;
-            width: 100%;
-            height: 15px;
-            background-color: #FFE0B5;
-            border-radius: 8px;
-            margin-bottom: 25px;
-
-        } 
-
-        .progressbar::after {
-            position: absolute;
-            content: attr(value);
-            top: -35;
-            bottom: 20px;
-            right: 0;
-            color: black;
-            font-size: 15px;
-            font-weight: 100px;
-        }
-
-        .progressline {
-            position: absolute;
-            width: 0%;
-            height: 15px;
-            background-color: #A87676;
-            top: -1px;
-            border-radius: 4px;
-            animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
-
-        }
-
-        @keyframes animate {
-            100% {
-                width: 100%;
-            }
-        }
-
-        .new {
-            margin-left: 40rem;
-        }
         .fa-regular{
-            margin-left: 11rem;
-            margin-top: 2rem;
-            cursor: pointer;
+            margin-left: 10rem;
+    margin-top: 11px;
         }
-    </style>
+        .TS{
+           
+    box-shadow: 8px 7px 6px 14px brown;
+        }
+        .box{
+            border: 2px solid black;
+            border-radius: 20px;
+    width: 22rem;
+    height: 11rem;
+    margin-left: 39px;
+    background-color: orangered;
+    position: relative;
+    z-index: 1;
+    top: 99px;
+}
+        .shadow{
+           border: none;
+    width: 19rem;
+    height: 10rem;
+    margin-left: 9rem;
+    background-color: grey;
+    box-shadow: 2px 5px 15px 9px grey;
+    border-radius: 20px;
+    
+        }
+        .box p{
+           font-size: 13px;
+    color: black;
+    font-family: serif;
+    text-align: center;
+    margin-top: 18px;
+        }
+        .slider img{
+            width: 77px;
+    height: 6rem;
+    margin-left: 17px;
+    margin-top: 21rem;
+    border-radius: 50%;
+        }
+        .slider img:hover{
+            cursor: pointer;
+            border: 2px solid black;
+            box-shadow: 2px 3px 4px 5px #F6F7C4;
+        }
+       .slider p:hover{
+           font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    width: 67px;
+    height: 8rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 19px;
+    margin-top: -17rem;
+        }
+         </style>
 </head>
 
 <body>
@@ -156,95 +120,60 @@
         data-aos-offset="0" data-aos-duration="1000">
             <h1>MY TECHNICAL SKILL</h1>
         </div>
-        <div class="container">
-            <div class="skillbox">
-                <div class="skilltitle">
-                    <div class="img">
-                        <img src="../images/java.png" class="skillicon">
-                    </div>
-                    <h3>JAVA</h3>
-                </div>
-                <div class="percentage">
-                    <div class="progressbar" value="80%">
-                        <div class="progressline" style="max-width: 80%;"></div>
-                    </div>
-                </div>
+        <div class="container flex">
+            <div class="TS border-2 text-white w-[42rem] h-[31rem] border-black ml-[14rem] mt-[35px] rounded-3xl bg-black">
+               <div class="box">
+                <p>Language: JAVA || DSA (Beginner)</p>
+                <p>Web Development : HTML || CSS || JAVASCRIPT || API </p>
+                <p>Framework: TAILWINDCSS || BOOTSTRAP</p>
+                <p>Version Control : GIT || GITHUB  </p>
+               </div>
+               <div class="shadow"></div>
             </div>
-            <div class="skillbox">
-                <div class="skilltitle">
-                    <div class="img">
-                        <img src="../images/html.jpg" class="skillicon">
+            <div class="icons flex">
+               
+                    <div class="slider">
+                        <img src="../images/java.png" id="image">
+                        <p id="content"></p>
                     </div>
-                    <h3>HTML</h3>
-                </div>
-                <div class="percentage">
-                    <div class="progressbar" value="90%">
-                        <div class="progressline" style="max-width: 90%;"></div>
+                    <div class="slider">
+                        <img src="../images/tailwind css.jpg" id="image">
+                        <p id="content"></p>
                     </div>
-                </div>
-            </div>
-            <div class="skillbox">
-                <div class="skilltitle">
-                    <div class="img">
-                        <img src="../images/cssicon.png" class="skillicon">
+                    <div class="slider">
+                        <img src="../images/github (1).png" id="image">
+                        <p id="content"></p>
                     </div>
-                    <h3>CSS</h3>
-                </div>
-                <div class="percentage">
-                    <div class="progressbar" value="90%">
-                        <div class="progressline" style="max-width: 90%;"></div>
+                    <div class="slider">
+                        <img src="../images/dsa.jpg" id="image">
+                        <p id="content"></p>
                     </div>
-                </div>
-            </div>
-            <div class="skillbox">
-                <div class="skilltitle">
-                    <div class="img">
-                        <img src="../images/JavaScript icon.png" class="skillicon">
+                    <div class="slider">
+                        <img src="../images/bootsratp.jpg" id="image">
+                        <p id="content"></p>
                     </div>
-                    <h3>JAVASCRIPT</h3>
-                </div>
-                <div class="percentage">
-                    <div class="progressbar" value="60%">
-                        <div class="progressline" style="max-width: 60%;"></div>
-
+                    <div class="slider">
+                        <img src="../images/html.jpg" id="image">
+                        <p id="content"></p>
                     </div>
-                </div>
-            </div>
-            <div class="skillbox">
-                <div class="skilltitle">
-                    <div class="img">
-                        <img src="../images/tailwind css.jpg" class="skillicon">
+                    <div class="slider">
+                        <img src="../images/JavaScript icon.png" id="image">
+                        <p id="content"></p>
                     </div>
-                    <h3>TAILWIND CSS</h3>
-                </div>
-                <div class="percentage">
-                    <div class="progressbar" value="80%">
-                        <div class="progressline" style="max-width: 80%;"></div>
-
+                    <div class="slider">
+                        <img src="../images/api.png" id="image">
+                        <p id="content"></p>
                     </div>
-                </div>
-            </div>
-            <div class="skillbox">
-                <div class="skilltitle">
-                    <div class="img">
-                        <img src="../images/c language.png" class="skillicon">
-                    </div>
-                    <h3>C language</h3>
-                </div>
-                <div class="percentage">
-                    <div class="progressbar" value="70%">
-                        <div class="progressline" style="max-width: 70%;"></div>
-
-                    </div>
-                </div>
-            </div>
+                    
+                
         </div>
-    </div>
+    
     </header>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script src="../index.js"></script>
 </body>
 
 </html>
