@@ -10,67 +10,60 @@
       rel="stylesheet"
       href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js">
 
     <style>
       * {
         padding: 0;
         margin: 0;
+        max-height: 100%;
+      }
+      .card{
+        margin: -43px 82px -44px;
       }
       body {
         background: radial-gradient(circle, #ffb200, orangered, black);
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       overflow: hidden;
+        overflow: hidden;
       }
-      .backbtn{
-        margin-left: -27rem;
-    margin-top: -7rem;
+      .slider {
+        display: flex;
+        justify-content: space-between;
+      }
+      .backbtn {
+        margin-left: 13rem;
+        margin-top: 3rem;
       }
       h2 {
-        font-size: 3rem;
-        margin-left: 41rem;
-        font-family: monospace;
+        font-size: 4rem;
+    margin-left: 37rem;
+    font-family: auto;
+    margin-top: -12px;
+}
+      img {
+   width: 25rem;
+    height: 18rem;
+    margin-top: 0rem;
+    padding: 71px;
+    margin-left: 4rem;
+    border-radius: 20%;
       }
-      .slider{
-        position: relative;
-        width: 200px;
-        height: 200px;
-        transform-style: preserve-3d;
-        animation: rotate 29s linear;
+      p {
+       color: white;
+    font-size: 20px;
+    width: 39rem;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 54px;
+    margin-top: 51px;
       }
-      @keyframes rotate{
-        0%{
-            transform: perspective(1000px) rotateY(0deg);
-        }
-        100%{
-            transform: perspective(1000px) rotateY(360deg);
-        }
+      .btn2{
+border: 2px solid;
+    border-radius: 50px;
+    width: 103px;
+    height: 29px;
+    margin-left: -11rem;
+    margin-top: 14rem;
       }
-      .slider span{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        transform-origin: center;
-        transform-style: preserve-3d;
-        transform: rotateY(calc(var(--i)*45deg)) translateZ(360px);
-      }
-      .slider span img{
-        position: absolute;
-    top: 21rem;
-    left: 32rem;
-    width: 85%;
-    height: 79%;
-    border-radius: 13px;
-    object-fit: cover;
-    transition: 1s;
-      }
-      .slider span img:hover{
-        transform: translateY(-50px) scale(1.2);
-      }
-
     </style>
   </head>
 
@@ -81,17 +74,36 @@
       ></a>
     </div>
     <h2>PROJECTS</h2>
-    <div class="slider">
-        <span style="--i:1;"><img src="../images/minor.jpeg"></span>
-        <span style="--i:2;"><img src="../images/sc of car.png"></span>
-        <span style="--i:3;"><img src="../images/todolist.jpeg"></span>
-        <span style="--i:4;"><img src="../images/clone.png"></span>
+    <div class="card  justify-evenly align-middle">
+      <div class="box1 flex">
+       <div data-aos="fade-right"><img src="../images/minor.jpeg" alt="" /></div> 
+        <a href="https://github.com/Sakshi-soni23/spotify"><button type="button" class="btn2">Project Link</button></a>
+       <div data-aos="fade-down-right"><p>
+          Musicbeat is a dynamic platform designed for music lovers and dance
+          enthusiasts Powered by HTML, CSS, JavaScript, and Tailwind CSS,
+          Musicbeat features a sleek blue-and-white UI and utilizes APIs to
+          deliver real-time song and video data. Explore, search, and immerse
+          yourself in an engaging musical journey with Musicbeat!
+        </p></div> 
+      </div>
        
+      <div class="box1 flex">
+       <div data-aos="fade-right"> <img src="../images/amazonclone.png" alt="" /></div>
+          <a href="https://github.com/Sakshi-soni23/amazon-website"><button type="button" class="btn2">Project Link</button></a>
+        <div data-aos="fade-down-right"><p>
+          Musicbeat is a dynamic platform designed for music lovers and dance
+          enthusiasts Powered by HTML, CSS, JavaScript, and Tailwind CSS,
+          Musicbeat features a sleek blue-and-white UI and utilizes APIs to
+          deliver real-time song and video data. Explore, search, and immerse
+          yourself in an engaging musical journey with Musicbeat!
+        </p></div> 
+      </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script></script>
   </body>
 </html>
